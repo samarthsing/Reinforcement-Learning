@@ -1,6 +1,9 @@
 import numpy as np
 from dynamicProgramming import *
 import matplotlib.pyplot as plt
+#This file finds the optimal policy for the Gambler-Problem using Value Iteration\
+#for different values of P_head
+#Graph for the Opitmal Policy and Value is Shown
 
 # Set up P and R
 def get_P_and_R_gambler(prob_head):
